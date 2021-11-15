@@ -20,9 +20,9 @@ header {
 
 header h1 { 
  font-weight: bold;
+ margin: 0;
  font-size: 36px;
  color: #fce138;
- margin: 0;
 }
 
 header a {
@@ -100,19 +100,15 @@ font-size: 55px;
 color: #fce138;
  }
 
- /* Hero Styles End */
-
 
 .hero-form{
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   color: #024e76;
+  width: 40%;
   margin: 3.5%;
-}
-
-.hero-form p{
-  margin: 5px 0 15px 0;
+  
 }
 
 .hero-form h3 {
@@ -146,9 +142,7 @@ color: #fce138;
   font-size: 16px;
 }
 
-.intro{
-  text-align: center;
-}
+/* Hero Styles End */
 
 .intro p{
   line-height: 1.7;
@@ -156,10 +150,10 @@ color: #fce138;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -190,10 +184,11 @@ color: #fce138;
 .section title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: o 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-boarder {
@@ -205,7 +200,6 @@ border-color: #fce138;
 }
 
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -252,15 +246,14 @@ border-color: #fce138;
 
 .section-title{
   font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
+  
+  
   border-bottom: 3px solid;
-  margin-bottom: 35px;
+  
   color: #024e76;
 }
 /*REACH OUT STYLES START*/
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
@@ -299,3 +292,6 @@ border-color: #fce138;
 }
 /* REACH OUT STYLES END */
 
+.flex-row{
+  display: flex;
+}
